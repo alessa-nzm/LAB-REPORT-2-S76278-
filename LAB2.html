@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab Exercise 2 - Personal Profile Page</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>My Personal Profile Page</h1>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav>
+    <a href="#profile">Profile</a> |
+    <a href="#form">Form</a>
+  </nav>
+
+  <!-- Profile Section -->
+  <section id="profile">
+    <article>
+      <h2>Personal Information</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Occupation</th>
+        </tr>
+        <tr>
+          <td>Alia Nizam</td>
+          <td>22</td>
+          <td>Student</td>
+        </tr>
+        <tr>
+          <td>Umairah Bahar</td>
+          <td>28</td>
+          <td>Graphic Designer</td>
+        </tr>
+        <tr>
+          <td>Rahim Salleh</td>
+          <td>35</td>
+          <td>Software Engineer</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+
+  <!-- Form Section -->
+  <section id="form">
+    <article>
+      <h2>Contact Form</h2>
+      <form action="#" method="post">
+
+        <!-- Text Inputs -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Favorite Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Traveling"> Traveling
+        <input type="checkbox" name="hobby" value="Music"> Music<br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+      </form>
+    </article>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 My Personal Profile Page</p>
+  </footer>
+
+</body>
+</html>
+
+
